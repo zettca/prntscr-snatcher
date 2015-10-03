@@ -1,0 +1,40 @@
+html, body{ margin: 0px; }
+
+body{
+	background: #CCC;
+	font-family: sans-serif;
+}
+
+header, main, footer{
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+main #holder{
+    width: 90%;
+    margin: 40px auto;
+}
+
+header span{ padding: 2px; }
+
+nav{
+    float: right;
+    position: fixed;
+}
+
+figure{
+    display: inline-block;
+    
+    padding: 0;
+    margin: 2px;
+    width: 192px;
+    height: 192px;
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    border: 1px solid silver;
+    border-radius: 2px;
+}
