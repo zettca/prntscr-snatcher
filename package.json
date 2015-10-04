@@ -1,13 +1,17 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "prntscr-snatcher",
+  "version": "1.0.0",
+  "description": "A Lightshot image snatcher",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/zettca/prntscr-snatcher.git"
+  },
+  "author": "Bruno Henriques <zettca@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
     "express": "~3.2.4",
-    "socket.io": "~0.9.14"
+    "cheerio": "~0.19.0",
+    "cloudscraper": "~1.1.2",
+    "request": "~2.64.0"
   }
 }
