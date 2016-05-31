@@ -31,9 +31,9 @@ function getImage(req, ele){
 
 function getImgSet(){
   var chrs = "0123456789abcdefghijklmnopqrstuvwxyz";
-  var chrs2 = "0123456789abcdefghijklmn";
+  var chrs2 = "0123456789abcdefghijklmnopqrstuvw";
   var rc = function(cs){ return cs[Math.floor(Math.random() * cs.length)];};
-  return 8 + rc(chrs2)+rc(chrs)+rc(chrs)+rc(chrs);
+  return "a" + rc(chrs2)+rc(chrs)+rc(chrs)+rc(chrs);
 }
 
 function resizeMe(setting){
