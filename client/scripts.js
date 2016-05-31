@@ -59,4 +59,4 @@ setInterval(function(){
     }
   }
   checkPageBottom();
-}, 3000);
+}, 2000);
