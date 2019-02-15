@@ -4,14 +4,14 @@
   "description": "A Lightshot image snatcher",
   "main": "server.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/zettca/prntscr-snatcher.git"
+    "type": "git",
+    "url": "https://github.com/zettca/prntscr-snatcher.git"
   },
   "author": "Bruno Henriques <zettca@gmail.com>",
   "dependencies": {
-    "express": "~3.2.4",
-    "cheerio": "~0.19.0",
-    "cloudscraper": "~1.1.2",
-    "request": "~2.64.0"
+    "cheerio": "^0.22.0",
+    "cloudscraper": "^2.0.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
   }
 }
